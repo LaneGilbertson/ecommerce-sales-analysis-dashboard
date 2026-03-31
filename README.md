@@ -13,6 +13,7 @@ This project analyzes transactional e-commerce sales data to uncover insights re
 # PostgreSQL
 - schema_tables.sql: Database and tables structure
 - data_cleaning.sql: Date validation and insertion of data into the tables
+- analysis_queries.sql: Data analysis queries
 
 # Jupyter Notebook
 
