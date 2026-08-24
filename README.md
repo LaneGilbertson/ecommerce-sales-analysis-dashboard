@@ -100,16 +100,17 @@ The following cleaning steps were performed:
 Business analysis was performed using SQL queries including via analysis_queries.sql:
 
 ### Monthly Revenue
-SELECT 
+```SELECT 
 DATE_TRUNC('month', order_date) AS "Month",
 SUM(order_items.sales) AS "Monthly Revenue"
 FROM orders
 JOIN order_items ON orders.order_id = order_items.order_id
 GROUP BY "Month"
-ORDER BY "Month"; 
+ORDER BY "Month";
+``` 
 
 ### Revenue by Region 
-SELECT 
+```SELECT 
 customers.region AS "Region",
 SUM(order_items.sales) AS "Region Revenue"
 FROM customers
@@ -117,14 +118,16 @@ JOIN orders ON customers.customer_id = orders.customer_id
 JOIN order_items ON orders.order_id = order_items.order_id
 GROUP BY "Region"
 ORDER BY "Region Revenue" DESC;
+```
 
 ### Shipping Mode Performance 
-SELECT 
+```SELECT 
 ship_mode AS "Shipping Mode",
 AVG(ship_date - order_date) AS "Average Shipping time"
 FROM orders
 GROUP BY "Shipping Mode"
 ORDER BY "Average Shipping time";
+```
 
 ## Dashboard Overview
 
@@ -188,7 +191,7 @@ Tracks:
 
 
 # Repository Structure
-ecommerce-sales-analysis-dashboard/
+```ecommerce-sales-analysis-dashboard/
 │
 ├── data/
 │   ├── raw/
@@ -207,4 +210,5 @@ ecommerce-sales-analysis-dashboard/
 │   └── screenshots/
 │
 └── README.md
+```
 
