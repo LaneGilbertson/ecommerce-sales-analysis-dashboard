@@ -32,7 +32,7 @@ The goal is to simulate a real-world business intelligence workflow by:
 
 ## Microsoft Power BI
 - ecommerce_dashboard.pbix: Interactive Ecommerce Dashboard
-- overview.png: Executive Overview page
+- executive_overview.png: Executive Overview page
 - product_performance.png: Product Performance page
 - profitability_analysis.png: Profitability Analysis page
 
@@ -94,6 +94,98 @@ The following cleaning steps were performed:
 - Normalized data into separate tables
 - Applied primary and foreign key constraints
 - Validated null values and data consistency
+
+## SQL Analysis
+
+Business analysis was performed using SQL queries including via analysis_queries.sql:
+
+### Monthly Revenue
+SELECT 
+DATE_TRUNC('month', order_date) AS "Month",
+SUM(order_items.sales) AS "Monthly Revenue"
+FROM orders
+JOIN order_items ON orders.order_id = order_items.order_id
+GROUP BY "Month"
+ORDER BY "Month"; 
+
+### Revenue by Region 
+SELECT 
+customers.region AS "Region",
+SUM(order_items.sales) AS "Region Revenue"
+FROM customers
+JOIN orders ON customers.customer_id = orders.customer_id
+JOIN order_items ON orders.order_id = order_items.order_id
+GROUP BY "Region"
+ORDER BY "Region Revenue" DESC;
+
+### Shipping Mode Performance 
+SELECT 
+ship_mode AS "Shipping Mode",
+AVG(ship_date - order_date) AS "Average Shipping time"
+FROM orders
+GROUP BY "Shipping Mode"
+ORDER BY "Average Shipping time";
+
+## Dashboard Overview
+
+### Executive Overview
+
+Tracks:
+
+- Total Sales
+- Total Profit
+- Total Orders
+- Profit Customers
+- Sales by Category
+- Sales by Segment
+- Sales by Region
+- Total Sales and Total Profit by Month
+- Sales vs Profit by State and Region
+
+(executive_overview.png)
+
+### Product Performance
+
+Tracks:
+
+- Products Sold
+- Unique Products
+- Average Profit per Product
+- Total Sales and Total Profit by Category
+- Total Sales and Total Profit by Segment
+- Bottom 10 Products by Profit
+- Sum of Sales and Profit by Product
+
+(product_performance.png)
+
+### Profitability Analysis
+
+Tracks:
+
+- Profit Margin
+- Total Profit by Region
+- Average Discount
+- Average Selling Price
+- Repeat vs One-Time Customers
+- Customer Lifetime Value Scatterplot
+- Total Sales and Total Profit vs Average Discount by Category
+
+(profitability_analysis.png)
+
+## Key Insights
+
+### Revenue
+
+- 
+
+### Profitability
+
+- 
+
+### Customers
+
+- 
+
 
 # Repository Structure
 ecommerce-sales-analysis-dashboard/
