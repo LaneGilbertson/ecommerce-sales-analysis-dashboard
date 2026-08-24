@@ -13,6 +13,7 @@ This project analyzes transactional e-commerce sales data to uncover insights re
 
 # Skills Used
 - SQL: Data modeling & analytical queries using PostgreSQL
+- Python: Read with an encoder, removed non-breaking spaces, saved clean UTF-8 file using Jupyter Notebook
 
 ## PostgreSQL
 - schema_tables.sql: Database and tables structure
@@ -20,7 +21,10 @@ This project analyzes transactional e-commerce sales data to uncover insights re
 - analysis_queries.sql: Data analysis queries
 
 ## Microsoft Power BI
-
+- ecommerce_dashboard.pbix: Interactive Ecommerce Dashboard
+- overview.png: Executive Overview page
+- product_performance.png: Product Performance page
+- profitability_analysis.png: Profitability Analysis page
 
 
 # Repository Structure
@@ -36,12 +40,11 @@ ecommerce-sales-analysis-dashboard/
 │   ├── 03_analysis_queries.sql
 │
 ├── python/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_feature_engineering.ipynb
-│
-├── tableau/
-│   ├── ecommerce_dashboard.twbx
-│   └── dashboard_preview.png
+│   ├── messy_to_clean_utf8.ipynb
+│   
+├── dashboard/
+│   ├── ecommerce-dashboard.
+│   └── screenshots/
 │
 └── README.md
 
