@@ -23,6 +23,7 @@ The goal is to simulate a real-world business intelligence workflow by:
 # Skills Used
 - SQL: Data modeling & analytical queries using PostgreSQL
 - Python: Read with an encoder, removed non-breaking spaces, saved clean UTF-8 file using Jupyter Notebook
+- Github: Project version control
 
 ## PostgreSQL
 - schema_tables.sql: Database and tables structure
@@ -35,6 +36,64 @@ The goal is to simulate a real-world business intelligence workflow by:
 - product_performance.png: Product Performance page
 - profitability_analysis.png: Profitability Analysis page
 
+## Database Design
+
+### Schema Overview
+
+The raw dataset was imported into a staging table and normalized into the following tables:
+
+### customers
+
+| Column |
+|---------|
+| customer_id |
+| customer_name |
+| segment |
+| country |
+| city |
+| state |
+| postal_code |
+| region |
+
+### products
+
+| Column |
+|---------|
+| product_id |
+| product_name |
+| category |
+| sub_category |
+
+### orders
+
+| Column |
+|---------|
+| order_id |
+| order_date |
+| ship_date |
+| ship_mode |
+| customer_id |
+
+### order_items
+
+| Column |
+|---------|
+| order_id |
+| product_id |
+| sales |
+| quantity |
+| discount |
+| profit |
+
+## Data Cleaning
+
+The following cleaning steps were performed:
+
+- Converted text dates to DATE format
+- Removed duplicate customer records
+- Normalized data into separate tables
+- Applied primary and foreign key constraints
+- Validated null values and data consistency
 
 # Repository Structure
 ecommerce-sales-analysis-dashboard/
