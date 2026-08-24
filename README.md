@@ -2,7 +2,16 @@
 Kaggle Link: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final 
 
 # Project Overview
-This project analyzes transactional e-commerce sales data to uncover insights related to revenue trends, product performance, customer behavior, and regional profitability. The goal is to simulate a real-world business scenario where stakeholders need actionable insights to improve revenue, optimize pricing strategies, and increase customer retention.
+This project analyzes transactional e-commerce sales data to uncover insights related to revenue trends, product performance, customer behavior, and regional profitability.
+
+The goal is to simulate a real-world business intelligence workflow by:
+
+- Designing a relational database in PostgreSQL
+- Cleaning and transforming raw sales data using SQL
+- Creating analytical views and business queries
+- Building an interactive Power BI dashboard
+- Generating actionable business insights to improve revenue, optimize pricing strategies, and increase customer retention
+
 
 # Business Objectives
 - How are revenue and profits trending over time?
