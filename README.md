@@ -145,7 +145,7 @@ Tracks:
 - Total Sales and Total Profit by Month
 - Sales vs Profit by State and Region
 
-(executive_overview.png)
+![Executive Overview](dashboard/executive_overview.png)
 
 ### Product Performance
 
@@ -159,7 +159,7 @@ Tracks:
 - Bottom 10 Products by Profit
 - Sum of Sales and Profit by Product
 
-(product_performance.png)
+![Product Performance](dashboard/product_performance.png)
 
 ### Profitability Analysis
 
@@ -173,7 +173,7 @@ Tracks:
 - Customer Lifetime Value Scatterplot
 - Total Sales and Total Profit vs Average Discount by Category
 
-(profitability_analysis.png)
+![Profitability Analysis](dashboard/profitability_analysis.png)
 
 ## Key Insights
 
@@ -206,8 +206,10 @@ Tracks:
 │   ├── messy_to_clean_utf8.ipynb
 │   
 ├── dashboard/
-│   ├── ecommerce-dashboard.
-│   └── screenshots/
+│   ├── ecommerce-dashboard.pbix
+│   └── executive_overview.png
+│   └── product_performance.png
+│   └── profitability_analysis.png
 │
 └── README.md
 ```
