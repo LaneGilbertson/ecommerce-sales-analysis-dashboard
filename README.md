@@ -212,3 +212,16 @@ Tracks:
 └── README.md
 ```
 
+## Author
+Lane Gilbertson
+
+Aspiring Data Analyst with interests in:
+
+- SQL
+- Data Visualization
+- Business Intelligence
+- Analytics Engineering
+
+LinkedIn: [www.linkedin.com/in/lane-gilbertson-1716983a9]
+
+GitHub: [[Your GitHub URL](https://github.com/LaneGilbertson)]
