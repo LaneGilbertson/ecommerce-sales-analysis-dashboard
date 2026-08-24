@@ -175,6 +175,8 @@ Tracks:
 
 ![Profitability Analysis](dashboard/profitability_analysis.png)
 
+**[Click Here to Interact with the Live Dashboard](PASTE_YOUR_POWER_BI_LINK_HERE)**
+
 ## Key Insights
 
 ### Revenue
