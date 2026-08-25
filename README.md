@@ -147,6 +147,8 @@ Tracks:
 
 ![Executive Overview](dashboard/executive_overview.png)
 
+![Executive Overview](dashboard/executive_overview.gif)
+
 ### Product Performance
 
 Tracks:
@@ -161,6 +163,8 @@ Tracks:
 
 ![Product Performance](dashboard/product_performance.png)
 
+![Product Performance](dashboard/product_performance.gif)
+
 ### Profitability Analysis
 
 Tracks:
@@ -174,6 +178,8 @@ Tracks:
 - Total Sales and Total Profit vs Average Discount by Category
 
 ![Profitability Analysis](dashboard/profitability_analysis.png)
+
+![Profitability Analysis](dashboard/profitability_analysis.gif)
 
 ## Key Insights
 
@@ -210,6 +216,10 @@ Tracks:
 │   └── executive_overview.png
 │   └── product_performance.png
 │   └── profitability_analysis.png
+│   └── executive_overview.gif
+│   └── product_performance.gif
+│   └── profitability_analysis.gif
+│   └── ecommerce-dashboard.pbip
 │
 └── README.md
 ```
