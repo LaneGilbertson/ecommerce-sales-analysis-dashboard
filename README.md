@@ -147,6 +147,7 @@ Tracks:
 
 ![Executive Overview](dashboard/executive_overview.png)
 
+
 ![Executive Overview](dashboard/executive_overview.gif)
 
 ### Product Performance
