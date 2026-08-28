@@ -188,11 +188,11 @@ Tracks:
 
 - 
 
-### Profitability
+### Product Performance
 
 - 
 
-### Customers
+### Profitability
 
 - 
 
@@ -202,24 +202,26 @@ Tracks:
 │
 ├── data/
 │   ├── raw/
+│       └── superstore_dataset_raw.csv
 │   └── cleaned/
+│       └── superstore_dataset_cleaned.csv
 │
 ├── sql/
 │   ├── schema_tables.sql
 │   ├── 02_data_cleaning.sql
-│   ├── 03_analysis_queries.sql
+│   └── 03_analysis_queries.sql
 │
 ├── python/
-│   ├── messy_to_clean_utf8.ipynb
+│   └── messy_to_clean_utf8.ipynb
 │   
 ├── dashboard/
 │   ├── ecommerce-dashboard.pbix
-│   └── executive_overview.png
-│   └── product_performance.png
-│   └── profitability_analysis.png
-│   └── executive_overview.gif
-│   └── product_performance.gif
-│   └── profitability_analysis.gif
+│   ├── executive_overview.png
+│   ├── product_performance.png
+│   ├── profitability_analysis.png
+│   ├── executive_overview.gif
+│   ├── product_performance.gif
+│   ├── profitability_analysis.gif
 │   └── ecommerce-dashboard.pbip
 │
 └── README.md
