@@ -23,6 +23,7 @@ The goal is to simulate a real-world business intelligence workflow by:
 # Skills Used
 - SQL: Data modeling & analytical queries using PostgreSQL
 - Python: Read with an encoder, removed non-breaking spaces, saved clean UTF-8 file using Jupyter Notebook
+- Microsoft Power BI: Created an interactive dashboard with insights toward e-commerce sales
 - Github: Project version control
 
 ## PostgreSQL
