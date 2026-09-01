@@ -185,17 +185,19 @@ Tracks:
 ## Key Insights
 
 ### Revenue
-
-- 
+- The West region generated the highest sales at 33.9% of total revenue, indicating stronger market demand compared to other regions. This suggests future marketing and inventory investments may yield the greatest return in this market.
+- Technology had a slight advantage over other sales categories at 36.4% of total revenue, serving as a primary driver of business growth.
+- Month-to-month sales and profit indicated a stronger late Q3 and Q4 performance among the years, potentially incorporating seasonal promotional planning and opportunities could prove effective moving certain inventory.
 
 ### Product Performance
-
-- 
+- Some categories generated strong sales but comparatively lower profit, suggesting margin pressures that may warrant pricing or discount strategy review.
+- Several products generated negative profit despite producing sales revenue, suggesting repricing, reduced discounting, or discontinuation.
+- Average profit per product revealed substantial differences in product profitability, emphasizing the importance of evaluating products based on profit rather than sales alone.
 
 ### Profitability
-
-- 
-
+- The West region yielded the highest profit at 34.6% of total profit, making the region suitable for further marketing and inventory investments. 
+- Categories with higher average discounts generally exhibited lower profit margins, indicating that aggressive discounting may be reducing overall profitability.
+- A relatively small group of customers contributed a disproportionately large share of total revenue, suggesting opportunities for targeted retention and loyalty initiatives.
 
 # Repository Structure
 ```ecommerce-sales-analysis-dashboard/
